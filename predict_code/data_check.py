@@ -1,6 +1,7 @@
 import pandas as pd
 from itertools import chain
 from predict_code.multiprocess_model import send_data
+# it is for getting data from app.py
 class check_html_data:
     def __init__(self,list_data):
         self.list_data=list_data
