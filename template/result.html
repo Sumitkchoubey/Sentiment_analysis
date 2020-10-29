@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+   <body>
+      <style>
+         p{
+            text-align: center;
+            text-decoration-color: red;
+            color:blue;
+            size: 30;
+          }
+         h6{
+            text-align: center;
+            color: brown;
+         }
+         table{
+            width: 400px;
+         }
+         table,tr,th{
+            color: cadetblue;
+         }
+         table,tr,td{
+            color: blueviolet;
+         }
+          div.write_data{
+            width: 400px;
+            height: 350px;
+            
+             position: absolute;
+             top:0;
+             bottom: 0;
+             left: 0;
+             right: 0;
+               
+             margin: auto;
+          }
+          div{
+             background-color:whitesmoke;
+          }
+      </style>
+     
+      <div class="write_data" >
+         <p>
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+               <ul class=flashes>
+               {% for message in messages %}
+                 <li>{{ message }}</li>
+               {% endfor %}
+               </ul>
+              {% endif %}
+            {% endwith %}
+         </p>
+         <p>Sentiment Analysis Result based on positive and negative from different model</p>
+      <table border = 1 class="center">
+         {%  for results in result%}
+         {% for key, value in results.items() %}
+            <tr>
+               <th color="red"> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+         {% endfor %}
+      </table>
+      </div>
+   </body>
+</html>

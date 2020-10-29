@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+p{
+  text-align: center;
+  text-decoration-color: red;
+  color:blue;
+  size: 30;
+}
+div.write_data{
+  width: 260px;
+  height: 200px;
+  
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+div.write_data.input:checked {
+  height: 50px;
+  width: 50px;
+}
+label{
+  color:green;
+}
+input{
+  color:red;
+}
+
+</style>
+
+
+<form action = "http://localhost:5000/result" method = "POST" enctype="multipart/form-data">
+<div class="write_data">
+  <p>Sentiment Analysis of Positive and Negative Sentence</p>
+  Text
+  <br>
+  <input type="text" name="text_data" size="60">
+  <br>
+  <br>
+  <label >Select Model</label>
+  <br>
+  <input type="checkbox" checked="checked" value="lstm_model" name="lstm_model">LSTM Model<br>
+  <input type="checkbox" value="neural_network" name="neural_network">Single Neural Network<br>
+  <input type="checkbox"  value="Conv_network" name="Conv_network">Convolution Neural Network<br>
+  <br>
+  <input type="submit">
+  </div>
+</form>
+
+</body>
+</html>

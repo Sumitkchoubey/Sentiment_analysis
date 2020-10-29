@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+   <body>
+      <style>
+         p{
+           text-align: center;
+           text-decoration-color: red;
+           color:blue;
+           size: 50;
+         }
+         ul{
+            color:blue;
+            size:50;
+         }
+         
+         table{
+            text-align: center;
+            color:red;
+         }
+         div.training_complete{
+            width: 400px;
+            height: 350px;
+            
+             position: absolute;
+             top:0;
+             bottom: 0;
+             left: 0;
+             right: 0;
+               
+             margin: auto;
+          }
+      </style>
+      <div class="training_complete">
+      <p>
+         {% with messages = get_flashed_messages() %}
+           {% if messages %}
+            <ul class=flashes>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+           {% endif %}
+         {% endwith %}
+      </p>
+     
+   </div>
+   </body>
+</html>
