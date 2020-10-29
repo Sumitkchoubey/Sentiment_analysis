@@ -1,7 +1,7 @@
 # Sentiment Analysis of Positive and Negative Sentences.
 ## Table of Contents
 * [General info](#general-info)
-* [Technologies] (#technologies)
+* [Technologies](#technologies)
 * [Setup](#setup)
 ## General info
 This Sentiment Analysis project is used to identify the positive and negative sentences using three types of model  Simple Neural Network, Convolution Neural Network and Long Short Term Memory Model.
