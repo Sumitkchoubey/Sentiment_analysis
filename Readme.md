@@ -17,7 +17,7 @@ This Sentiment Analysis project is used to identify the positive and negative se
   * Run git clone https://github.com/Sumitkchoubey/Sentiment_analysis.git.It Creates an sentiment_analysis folder.
   * Run pip install -r requirements.txt
   * Download any dataset releated to setiment analysis in .csv format where mainly two columns one is review and another is sentiment inside sentiment two types of values one is Positive and another is Negative.Here i use the IMDB dataset that is downloaded from kaggle.
-  * Run python app.py
+  * Run python app.py and It Start a server in the port number  http://127.0.0.1:5000/
   * For file upload open the link http://127.0.0.1:5000/file_training/ in the Web browser for upload a training data .It saves the dataset into the data folder which is creates during uploading and start trainng training on the based on the selected model.
   * After complete training it return a response in http://127.0.0.1:5000/training_succ in the link as a File upload Successful and the model training is done, and It saves the model file into the model folder that is also creates during training based on selected model during training and it save the review data as a numpy array inside the model folder as a name of comment data.
   * To test the model with a  text file open the link http://127.0.0.1:5000/text_test/ and inside the text box write multiple sentences and select model default select is Lstm Model and the result is display in the http://localhost:5000/result link with a answer as a positive one or negative one because here it is only one sentence.
