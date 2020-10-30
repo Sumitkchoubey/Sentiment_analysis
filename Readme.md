@@ -25,6 +25,7 @@ This Sentiment Analysis project is used to identify the positive and negative se
   * The download link of IMDBdataset and trained model is https://drive.google.com/file/d/16R7cC3GUwqKs4SqVUaSM2Mqp0TxpOemL/view.
   
 ## Result
+ ## The training Result 
   * The Training accuracy of LSTM Model is about 90 precent and validation accuracy about 88 percent
     ![lstm_moel_training_validation2](https://user-images.githubusercontent.com/24955305/97660591-17b4ad00-1a98-11eb-86fb-7da3deb8611c.png)
   * The training accuracy of Simple Neural Network is about 98 Percent but the accuracy in Validation is about 87 percent
@@ -32,7 +33,7 @@ This Sentiment Analysis project is used to identify the positive and negative se
   * The training accuracy of Convolution Neural Network Model is about 97 percent and validation accuracy is about 87 percent
     ![cnn_moel_training_validation2](https://user-images.githubusercontent.com/24955305/97661131-8ba38500-1a99-11eb-802d-6ad6960e43bc.png)
  ## The testing result
- * I create a sample test of 10 reviews on that and test with this three model and get the accuracy above 90 percent and the backend output of each model is about 
+ * I create a sample test3.csv file consist  of 10 reviews on that and test with this three model and get the accuracy above 90 percent and the backend output of each model is    about 
  * For Convolution Neural Network output sample
   [{'sentiment_type': 'Positive', 'sentiment_value': 0.842661, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.99748635, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9881045, 'model': 'Conv_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.013912744, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9523934, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.98041373, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.5237386, 'model': 'Conv_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.0031370197, 'model': 'Conv_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.00025191973, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9984534, 'model': 'Conv_network'}]
 * For Simple Neural Network Output sample 
