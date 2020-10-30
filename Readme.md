@@ -26,3 +26,4 @@ This Sentiment Analysis project is used to identify the positive and negative se
   
 ## Result
   The Training accuracy of LSTM Model is 
+  ![lstm_moel_training_validation2](https://user-images.githubusercontent.com/24955305/97660591-17b4ad00-1a98-11eb-86fb-7da3deb8611c.png)
