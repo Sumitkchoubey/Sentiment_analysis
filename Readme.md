@@ -5,7 +5,7 @@
 * [Setup](#setup)
 * [Result](#result)
 ## General info
-This Sentiment Analysis project is used to identify the positive and negative sentences using three types of model  Simple Neural Network, Convolution Neural Network and Long Short Term Memory Model.
+This Sentiment Analysis project is used to identify the positive and negative sentences using three types of model  Simple Neural Network, Convolution Neural Network and Long Short Term Memory Model.With using these three model it can easily identified how many positive or negative sentence present in a file,and find the mindset of the most users about any review. 
 ## Technologies
 * Python
 * Numpy
@@ -34,8 +34,8 @@ This Sentiment Analysis project is used to identify the positive and negative se
     ![cnn_moel_training_validation2](https://user-images.githubusercontent.com/24955305/97661131-8ba38500-1a99-11eb-802d-6ad6960e43bc.png)
  ## The testing result
  * I create a sample test3.csv file consist  of 10 reviews on that and test with this three model and get the accuracy above 90 percent and the backend output of each model is    about 
- * For Convolution Neural Network output sample:[
-  [{'sentiment_type': 'Positive', 'sentiment_value': 0.842661, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.99748635, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9881045, 'model': 'Conv_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.013912744, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9523934, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.98041373, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.5237386, 'model': 'Conv_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.0031370197, 'model': 'Conv_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.00025191973, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9984534, 'model': 'Conv_network'}]]
+ * For Convolution Neural Network output sample:
+  [{'sentiment_type': 'Positive', 'sentiment_value': 0.842661, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.99748635, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9881045, 'model': 'Conv_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.013912744, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9523934, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.98041373, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.5237386, 'model': 'Conv_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.0031370197, 'model': 'Conv_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.00025191973, 'model': 'Conv_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9984534, 'model': 'Conv_network'}]
 * For Simple Neural Network Output sample :
 [{'sentiment_type': 'Positive', 'sentiment_value': 0.93726605, 'model': 'neural_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9978155, 'model': 'neural_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.8757394, 'model': 'neural_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.0027215637, 'model': 'neural_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9884432, 'model': 'neural_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.99449086, 'model': 'neural_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.48256207, 'model': 'neural_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 0.06593483, 'model': 'neural_network'}, {'sentiment_type': 'Negative', 'sentiment_value': 6.535258e-07, 'model': 'neural_network'}, {'sentiment_type': 'Positive', 'sentiment_value': 0.9747069, 'model': 'neural_network'}]
 * For LSTM output Sample
