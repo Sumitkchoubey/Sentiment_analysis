@@ -24,3 +24,5 @@ This Sentiment Analysis project is used to identify the positive and negative se
   * To test with a .csv file upload it through a http://127.0.0.1:5000/file_upload/ in the file there are one column name of review where all the reviews are written and it return a list of positive and negative sentence in the the http://localhost:5000/result  file based on the seletec model.
   * The download link of IMDBdataset and trained model is https://drive.google.com/file/d/16R7cC3GUwqKs4SqVUaSM2Mqp0TxpOemL/view.
   
+## Result
+  The Training accuracy of LSTM Model is 
