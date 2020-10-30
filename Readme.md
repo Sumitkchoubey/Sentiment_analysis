@@ -25,5 +25,5 @@ This Sentiment Analysis project is used to identify the positive and negative se
   * The download link of IMDBdataset and trained model is https://drive.google.com/file/d/16R7cC3GUwqKs4SqVUaSM2Mqp0TxpOemL/view.
   
 ## Result
-  The Training accuracy of LSTM Model is 
+  The Training accuracy of LSTM Model is about 90 precent and validation accuracy about 88 percent
   ![lstm_moel_training_validation2](https://user-images.githubusercontent.com/24955305/97660591-17b4ad00-1a98-11eb-86fb-7da3deb8611c.png)
