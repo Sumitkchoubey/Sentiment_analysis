@@ -27,3 +27,7 @@ This Sentiment Analysis project is used to identify the positive and negative se
 ## Result
   The Training accuracy of LSTM Model is about 90 precent and validation accuracy about 88 percent
   ![lstm_moel_training_validation2](https://user-images.githubusercontent.com/24955305/97660591-17b4ad00-1a98-11eb-86fb-7da3deb8611c.png)
+  The training accuracy of Simple Neural Network is about 97 Percent but the accuracy in Validation is about 76 percent Which is much lower than LSTM Model
+  ![normal_neural_model_training_validation2](https://user-images.githubusercontent.com/24955305/97660891-db358100-1a98-11eb-8133-7113e508ad83.png)
+  The training accuracy of Convolution Neural Network Model is about 97 percent and validation accuracy is about 87 percent
+  
